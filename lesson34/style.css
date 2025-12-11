@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+
+th,
+caption,
+td {
+    border: 1px solid #000;
+}
+
+caption {
+    border-bottom: none;
+}
+
+th,
+td[scope="row"] {
+    color: #af0505;
+}
