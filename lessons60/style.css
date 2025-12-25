@@ -1,0 +1,59 @@
+.section  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+} */
+
+.cards {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(248, 185, 101);
+    border: 1px solid #000;
+}
+
+.box-1 {
+    position: relative;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 40px;
+
+}
+
+.box-2 {
+    position: relative;
+    top: 30px;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+}
+
+.box-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.box-4 {
+    position: relative;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+}
+
+.box-12 {
+    position: relative;
+    top: 0px;
+    right: 10px;
+    bottom: 0px;
+    left: 0px;
+}
