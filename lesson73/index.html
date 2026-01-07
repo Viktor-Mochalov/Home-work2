@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="contener">
+        <fieldset class="form-group1">
+            <legend class="legend">Ваши личные данные</legend>
+            <label for="name">Ваше имя</label>
+            <input id="name" class="input" type="text" name="name" placeholder="Имя" inputmode="text" required>
+            <label for="age">Ваш город</label>
+            <input id="age" class="input" type="text" name="age" placeholder="Город" inputmode="text" required>
+            <label for="phone">Ваш номер телефона</label>
+            <input id="phone" class="input" type="tel" name="phone" placeholder="Номер телефона" inputmode="tel"
+                required>
+            <label for="email">Ваша почта</label>
+            <input id="email" class="input" type="email" name="email" placeholder="Почта" inputmode="email" required>
+        </fieldset>
+        <fieldset class="form-group2">
+            <Label for="message">Сообщение</Label>
+            <textarea class="textarea" id="message" placeholder="Ваше сообщение" required name="message"></textarea>
+            <label class="label-checkbox">
+                <input class="checkbox" type="checkbox" name="checkbox" required />
+                <span class="checkbox-text">я принимаю правила</span>
+            </label>
+        </fieldset>
+        <button class="button" type="submit">отправить</button>
+    </form>
+</body>
+
+</html>

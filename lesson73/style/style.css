@@ -1,0 +1,123 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contener {
+    border: 1px inset #000;
+    box-shadow: 3px 2px 2px 3px #4e4949;
+    border-radius: 10px;
+    max-width: 300px;
+    /* margin: auto; */
+    background: #4d97b0;
+    background: linear-gradient(90deg, rgba(77, 151, 176, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.form-group1 {
+    border: none;
+    padding-bottom: 0
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 8px;
+    Font-weight: 500;
+}
+
+.legend {
+    padding: 15px 0px 10px 0px;
+    font-weight: 700;
+}
+
+legend {
+    font-weight: 500;
+}
+
+.form-group2 {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.textarea {
+    resize: vertical;
+    margin-bottom: 8px;
+    padding: 3px 8px;
+    max-height: 200px;
+    min-width: 100%;
+    min-height: 30px;
+    background: #bcb9b9;
+    border: 2px inset #5d5a5a;
+    border-radius: 5px;
+}
+
+.input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px 8px;
+    background: #bcb9b9;
+    border: 2px inset #5d5a5a;
+    border-radius: 5px;
+}
+
+.checkbox {
+    appearance: none;
+    position: absolute;
+    outline: none;
+    accent-color: #de6903;
+}
+
+.label-checkbox {
+    padding-left: 22px;
+}
+
+.checkbox::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -22px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #bcb9b9;
+}
+
+.checkbox:checked::after {
+    background: url("../images/check-icon.svg") no-repeat center, #de6903;
+}
+
+.button {
+    margin: 0 0 14px 14px;
+    padding: 2px 7px;
+    background-color: #bcb9b9;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opaciti 0.2s;
+}
+
+.button:hover {
+    background-color: #de6903;
+    /* opacity: 0.90; */
+}
+
+.button:active {
+    background-color: #fbff08;
+}
+
+.input:focus-visible,
+.textarea:focus-visible,
+.checkbox:focus-visible::after,
+.button:focus-visible {
+    outline: 2px solid #de6903;
+    outline-offset: 1px;
+}
