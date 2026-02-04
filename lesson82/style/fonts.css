@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Sofia Sans Condensed";
+    src: local("Sofia Sans Condensed"), url("../fonts/SofiaSansCondensed-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

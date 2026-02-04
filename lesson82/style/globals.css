@@ -1,0 +1,53 @@
+html {
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px;
+  min-height: 100vh;
+  background: linear-gradient(279deg, rgb(255, 145, 11), rgb(153, 147, 147),rgb(84, 81, 81),rgb(153, 147, 147),rgb(255, 145, 11));
+  z-index: -1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 15px 10px;
+    margin: 0 auto;
+}
+
+.footer-container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;  
+}
+
+.section {
+  margin-bottom: 140px;
+}
+
+.logo:hover svg path {
+    fill: #ffc814;
+}
